@@ -293,7 +293,9 @@ class DecrFor {
 }
 
 //listing 13
-for(count=10; count < 5; count++) 
+for(count=10; count < 5; count
+
+++) 
   x += count; // this statement will not execute
 
 //listing
@@ -509,7 +511,7 @@ class Guess4 {
 
     An improved Help system that uses a
     do-while to process a menu selection.
-*/
+ */
 class Help2 {
 
     public static void main(String args[])
@@ -697,9 +699,8 @@ class Break5 {
                 }
                 System.out.println("After k loop"); // won't execute 
             }
-    listing
-//
-//30        System.out.println("After j loop"); // won't execute 
+            listing //
+                    //30        System.out.println("After j loop"); // won't execute 
         }
         System.out.println("After i loop");
     }
@@ -812,7 +813,7 @@ class ContToLabel {
 
    The finished Java statement Help system
    that processes multiple requests.
-*/
+ */
 class Help3 {
 
     public static void main(String args[])
@@ -894,7 +895,7 @@ class Help3 {
 /*  
    Use nested loops to find factors of numbers 
    between 2 and 100. 
-*/ 
+ */
 class FindFac {
 
     public static void main(String args[]) {
